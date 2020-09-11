@@ -1,10 +1,10 @@
-// Collect data from data.js
+// Collecting data from data.js
 var tableData = data;
 
-// Select 'tbody' element
+// Selecting 'tbody' element
 var tbody = d3.select("tbody");
 
-// Select filter button in order to filter through dates of sightings. 
+// Selecting filter button in order to filter through dates of sightings. 
 var button = d3.select("#filter-btn");
 
 // Looping and appending objects from the array and looping through the [key,value] within each object
