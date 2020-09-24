@@ -16,14 +16,14 @@ tableData.forEach((sightings)=> {
     });
 });
 
-var button = d3.select("#button");
+var button = d3.select("#filter-btn");
 
 // Selecting the form
-var form = d3.select("#form");
+var input = d3.select("#datetime");
 
 // Creating event handlers for clicking the button or pressing the enter key
 button.on("click", runEnter);
-form.on("submit",runEnter);
+input.on("submit",runEnter);
 
 // Creating the function to run for both events
 function runEnter() {
